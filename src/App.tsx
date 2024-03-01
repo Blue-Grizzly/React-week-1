@@ -54,6 +54,8 @@ export default function App() {
 type ButtonProps = {
   onSelected: (selected: string) => void;
 };
+
+
 const Buttons = (props: ButtonProps) => {
   const { onSelected: handleSelected} = props;
   return (
